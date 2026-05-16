@@ -1,0 +1,324 @@
+{
+	"header": {
+		"nav": {
+			"notreHistoire": "Our Story",
+			"tarifs": "Pricing",
+			"temoignages": "Testimonials",
+			"galerie": "Gallery",
+			"reserver": "Book"
+		},
+		"phone": "+33 6 46 81 40 33",
+		"languageSwitcher": "Language"
+	},
+	"hero": {
+		"eyebrow": "Event Catering",
+		"titleLine1": "House Of",
+		"titleLine2": "Blessing",
+		"subtitle": "Cocktail receptions, buffets, and full-service packages — the art of hosting, crafted for every exceptional moment.",
+		"ctaPrimary": "Discover our packages",
+		"ctaSecondary": "Book now",
+		"discover": "Discover"
+	},
+	"tarifs": {
+		"eyebrow": "Our packages",
+		"title": "Pricing",
+		"recommended": "★ Recommended",
+		"reserve": "Book",
+		"formules": {
+			"vinDhonneur": {
+				"name": "Cocktail reception",
+				"description": "A selection of refined canapés, verrines, and bite-sized creations served during your event.",
+				"unit": "/person",
+				"rowLess": "Under 100 guests",
+				"rowMore": "Over 100 guests"
+			},
+			"formuleComplete": {
+				"name": "Full package",
+				"description": "Cocktail reception + buffet: the full House Of Blessing experience.",
+				"unit": "/person"
+			},
+			"buffet": {
+				"name": "Buffet",
+				"description": "A generous buffet crafted from seasonal ingredients and presented with care.",
+				"unit": "/person"
+			}
+		}
+	},
+	"temoignages": {
+		"eyebrow": "They trusted us",
+		"title": "Testimonials",
+		"hint": "Click on a testimonial to read it in full",
+		"dialogAriaLabel": "Testimonial from {name}",
+		"close": "Close",
+		"items": [
+			{
+				"name": "Aminata & Karim",
+				"occasion": "Wedding — 180 guests",
+				"body": "The team made our wedding shine. A buffet of rare elegance, impeccable service.",
+				"city": "🇫🇷 Paris"
+			},
+			{
+				"name": "Sophie M.",
+				"occasion": "40th birthday party",
+				"body": "Beautiful cocktail reception, the team was incredibly kind. I highly recommend.",
+				"city": "🇫🇷 Lyon"
+			},
+			{
+				"name": "Latour Office",
+				"occasion": "Corporate event",
+				"body": "Flawless performance. Perfect logistics, creativity in every bite.",
+				"city": "🇫🇷 Paris"
+			},
+			{
+				"name": "Diallo Family",
+				"occasion": "Christening",
+				"body": "Remarkable attention to detail and authentic flavours. Unforgettable.",
+				"city": "🇫🇷 Bordeaux"
+			},
+			{
+				"name": "Émilie & Thomas",
+				"occasion": "Civil wedding — 90 guests",
+				"body": "Everything was perfect, from the canapés to the service. Our guests are still talking about it.",
+				"city": "🇫🇷 Nantes"
+			},
+			{
+				"name": "Restaurant L'Olivier",
+				"occasion": "Private event",
+				"body": "Trusting HOB with our event was the best decision. Impeccable service.",
+				"city": "🇫🇷 Marseille"
+			},
+			{
+				"name": "Yasmine B.",
+				"occasion": "50th anniversary reception",
+				"body": "The buffet was a hit. Presentation worthy of a fine restaurant.",
+				"city": "🇫🇷 Toulouse"
+			},
+			{
+				"name": "Maison Vermeer",
+				"occasion": "Boutique opening",
+				"body": "Elegance, punctuality, creativity. We recommend them without hesitation.",
+				"city": "🇫🇷 Lille"
+			},
+			{
+				"name": "Mathieu D.",
+				"occasion": "Corporate cocktail",
+				"body": "Attentive team, fresh produce, careful plating. A real experience.",
+				"city": "🇫🇷 Strasbourg"
+			}
+		]
+	},
+	"equipe": {
+		"eyebrow": "Who we are",
+		"title": "The founders & the team",
+		"historyHeading": "A family story, a shared passion",
+		"historyP1": "House Of Blessing was born from one woman's passion for gastronomy and the art of hosting, joined by her daughter who shares and carries on the same love for the craft. Together, they design tailor-made events, where every detail matters — from product selection to the presentation of every dish.",
+		"historyP2": "Surrounded by a caring and experienced team, they make sure every reception becomes a unique moment, worthy of your guests.",
+		"serviceHeading": "Service worthy of your guests",
+		"serviceP": "Our team supports every event — wedding, birthday, seminar, private dinner — with the same attention to detail. Refined presentation, elegant plating, and warm hospitality so you can fully enjoy your guests.",
+		"altFondatrices": "The founders of House Of Blessing",
+		"altEquipe": "House Of Blessing team in service"
+	},
+	"galerie": {
+		"eyebrow": "Our work",
+		"title": "Gallery",
+		"altBuffet": "House Of Blessing buffet and canapés",
+		"altReception": "House Of Blessing reception",
+		"altPreparation": "House Of Blessing preparation",
+		"openLabel": "View photo {n} in full size",
+		"filters": {
+			"all": "All",
+			"mariage": "Weddings",
+			"pro": "Corporate",
+			"prive": "Private"
+		},
+		"empty": "No photo in this category."
+	},
+	"calendar": {
+		"eyebrow": "Book a meeting",
+		"title": "Free consultation",
+		"subtitle": "Pick a 30-minute slot to discuss your event with our team.",
+		"placeholderTitle": "Calendar being set up",
+		"placeholderBody": "In the meantime, you can reach us directly via WhatsApp or phone — we reply quickly.",
+		"placeholderWhatsapp": "Chat on WhatsApp",
+		"placeholderPhone": "Call directly"
+	},
+	"reservation": {
+		"eyebrow": "Get a quote",
+		"title": "Booking",
+		"intro": "Fill in the form below — we'll get back to you quickly via WhatsApp to discuss your event and send you a personalised quote.",
+		"form": {
+			"name": "Full name",
+			"namePlaceholder": "John Doe",
+			"phone": "Phone",
+			"phonePlaceholder": "+33 6 12 34 56 78",
+			"email": "Email",
+			"emailPlaceholder": "john@example.com",
+			"type": "Event type",
+			"select": "Select...",
+			"date": "Planned date",
+			"guests": "Number of guests",
+			"guestsPlaceholder": "80",
+			"package": "Preferred package",
+			"messageOptional": "Message (optional)",
+			"messagePlaceholder": "Tell us about your needs, dietary restrictions, venue...",
+			"submit": "Send my request via WhatsApp",
+			"submitting": "Opening WhatsApp...",
+			"footerNote": "Your request will be sent via WhatsApp to +33 6 46 81 40 33"
+		},
+		"eventTypes": {
+			"mariage": "Wedding",
+			"anniversaire": "Birthday",
+			"bapteme": "Christening",
+			"entreprise": "Corporate event",
+			"cocktail": "Private cocktail",
+			"autre": "Other"
+		},
+		"packages": {
+			"vinDhonneur": "Cocktail reception",
+			"buffet": "Buffet",
+			"complete": "Full package (cocktail + buffet)"
+		},
+		"whatsappIntro": "Hello House Of Blessing,\n\nI would like to make a booking request:",
+		"whatsappFields": {
+			"name": "Name",
+			"phone": "Phone",
+			"email": "Email",
+			"type": "Event type",
+			"date": "Planned date",
+			"guests": "Number of guests",
+			"package": "Preferred package"
+		},
+		"whatsappMessageLabel": "Message"
+	},
+	"whatsapp": {
+		"ariaLabel": "Contact House Of Blessing on WhatsApp",
+		"defaultMessage": "Hello House Of Blessing, I would like to know more about your services."
+	},
+	"lightbox": {
+		"close": "Close",
+		"previous": "Previous photo",
+		"next": "Next photo",
+		"alt": "House Of Blessing"
+	},
+	"social": {
+		"instagram": "Follow us on Instagram",
+		"facebook": "Follow us on Facebook",
+		"followUs": "Follow us"
+	},
+	"footer": {
+		"tagline": "Event catering — the art of hosting, crafted for every exceptional moment.",
+		"navHeading": "Navigation",
+		"legalHeading": "Legal",
+		"mentionsLegales": "Legal notice",
+		"copyright": "© {year} House Of Blessing. All rights reserved."
+	},
+	"mentionsLegales": {
+		"title": "Legal Notice",
+		"lastUpdated": "Last updated: {date}",
+		"placeholderNote": "The information below is a template — to be completed with your actual business details.",
+		"editor": {
+			"title": "Site publisher",
+			"company": "Company name",
+			"companyValue": "House Of Blessing [to complete: SARL / SAS / etc.]",
+			"legalForm": "Legal form",
+			"legalFormValue": "[To complete]",
+			"capital": "Share capital",
+			"capitalValue": "[To complete] €",
+			"siret": "SIRET",
+			"siretValue": "[14 digits to complete]",
+			"address": "Registered office",
+			"addressValue": "[Full address to complete]",
+			"phone": "Phone",
+			"phoneValue": "+33 6 46 81 40 33",
+			"email": "Email",
+			"emailValue": "[contact@houseofblessing.fr]",
+			"director": "Publication director",
+			"directorValue": "[Founder name]"
+		},
+		"host": {
+			"title": "Host",
+			"body": "This website is hosted by Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA. Website: vercel.com"
+		},
+		"ip": {
+			"title": "Intellectual property",
+			"body": "The entire site (texts, images, videos, logos, graphic identity) is the exclusive property of House Of Blessing. Any reproduction, representation, modification, publication, total or partial adaptation of these elements is prohibited without prior written authorisation."
+		},
+		"data": {
+			"title": "Personal data (GDPR)",
+			"body1": "Data collected via the booking form (name, phone, email, event type, date, number of guests, message) is used solely to process your request and send you a personalised quote.",
+			"body2": "No data is transferred to third parties. Retention: 3 years from the last contact.",
+			"body3": "In accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act, you have a right of access, rectification, deletion and opposition concerning your personal data. To exercise these rights, contact us via WhatsApp or phone."
+		},
+		"cookies": {
+			"title": "Cookies",
+			"body": "This site does not use tracking or advertising cookies. Only strictly necessary technical cookies (language preferences) may be stored on your device."
+		},
+		"credits": {
+			"title": "Credits",
+			"body": "Photography: House Of Blessing and free-licence stock (Pexels, Unsplash). Design and development: [to complete]."
+		}
+	},
+	"notreHistoire": {
+		"ariaLabel": "Our story — House Of Blessing",
+		"section1": {
+			"aria": "Who we are",
+			"eyebrow": "01 — Who we are",
+			"line1": "The art",
+			"line2": "Of",
+			"line3": "Hosting",
+			"body": "House Of Blessing was born from one woman's passion for gastronomy, joined by her daughter who shares and carries on the same love for the art of hosting — a family story, passed on with care."
+		},
+		"section2": {
+			"aria": "Our passion",
+			"eyebrow": "02 — Our passion",
+			"line1": "Flavours",
+			"line2": "Without",
+			"line3": "Compromise",
+			"body": "Seasonal produce, hand-picked suppliers, fully home-made cooking. Every bite tells of respect for the product and the moment shared.",
+			"card1Title": "Origin",
+			"card1Body": "Local producers and seasonal markets. We know where every ingredient comes from.",
+			"card2Title": "Home-made",
+			"card2Body": "Everything is prepared by our team. No industrial product, no shortcut.",
+			"card3Title": "Tailor-made",
+			"card3Body": "Each menu is designed for your event, your guests, your tastes."
+		},
+		"section3": {
+			"aria": "Our approach",
+			"eyebrow": "03 — Our approach",
+			"line1": "Every",
+			"line2": "Detail",
+			"line3": "Matters",
+			"body": "From plating to welcome, through the rhythm of service — we orchestrate every moment so you only have to think about your guests.",
+			"card1Title": "01 — Listening",
+			"card1Body": "First conversation to understand your event, your guests, your venue.",
+			"card2Title": "02 — Creation",
+			"card2Body": "Bespoke menu composition and full logistics planning from A to Z.",
+			"card3Title": "03 — Service",
+			"card3Body": "Uniformed team, elegant plating, attentive service to the very last glass."
+		},
+		"section4": {
+			"aria": "Our commitments",
+			"eyebrow": "04 — Our commitments",
+			"line1": "Produce",
+			"line2": "Service",
+			"line3": "Elegance",
+			"body": "Three simple commitments — kept at every reception, no exception.",
+			"card1Title": "100% home-made",
+			"card1Body": "No industrial preparations. Everything is cooked by our team, to order.",
+			"card2Title": "Transparent quote",
+			"card2Body": "No hidden fees. The price you see is the price you pay.",
+			"card3Title": "Uniformed team",
+			"card3Body": "Refined presentation and warm welcome — elegance down to the smallest detail.",
+			"closing": "Our measure of success is your guests' wish to return for your next reception."
+		},
+		"section5": {
+			"aria": "Join us",
+			"eyebrow": "05 — Let's host your next event",
+			"line1": "For Your",
+			"line2": "Next",
+			"line3": "Reception",
+			"body": "Weddings, birthdays, christenings, corporate events — trust us with your reception and enjoy your guests fully.",
+			"ctaPrimary": "Request a quote"
+		}
+	}
+}
