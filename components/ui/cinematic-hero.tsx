@@ -1,6 +1,7 @@
 import React from 'react';
 import { getTranslations } from 'next-intl/server';
 import { buttonVariants } from '@/components/ui/button';
+import { Typewriter } from '@/components/ui/typewriter';
 
 const CHAR_STEP = 0.055;
 const BASE_DELAY = 0.45;
@@ -9,6 +10,11 @@ const VIDEO_PRIMARY = '/Photos/hero-video.mp4';
 const VIDEO_FALLBACK = '/Photos/hero-fallback.mp4';
 const POSTER =
 	'/Photos/people-group-catering-buffet-food-indoor-in-luxury-2026-04-14-00-15-54-utc.jpg';
+
+const TYPEWRITER_PHRASES = [
+	'La maison de Dieu',
+	"L'excellence au service de vos moments bénis",
+];
 
 function AnimatedWord({ text, baseDelay }: { text: string; baseDelay: number }) {
 	return (
@@ -19,7 +25,7 @@ function AnimatedWord({ text, baseDelay }: { text: string; baseDelay: number }) 
 					className="hob-char-in inline-block"
 					style={{ animationDelay: `${baseDelay + i * CHAR_STEP}s` }}
 				>
-					{char === ' ' ? ' ' : char}
+					{char === ' ' ? ' ' : char}
 				</span>
 			))}
 		</span>
@@ -116,7 +122,20 @@ export async function CinematicHero() {
 				</h1>
 
 				<p
-					className="hob-fade-up text-foreground/85 mx-auto mt-10 max-w-xl text-base leading-relaxed md:text-lg"
+					className="hob-fade-up text-primary/90 mx-auto mt-10 text-lg font-light tracking-widest italic"
+					style={{ animationDelay: '1.6s' }}
+				>
+					<Typewriter
+						words={TYPEWRITER_PHRASES}
+						speed={70}
+						delayBetweenWords={2800}
+						cursor={true}
+						cursorChar="|"
+					/>
+				</p>
+
+				<p
+					className="hob-fade-up text-foreground/75 mx-auto mt-4 max-w-xl text-sm leading-relaxed md:text-base"
 					style={{ animationDelay: '1.9s' }}
 				>
 					{t('subtitle')}
