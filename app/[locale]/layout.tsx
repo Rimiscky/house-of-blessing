@@ -7,6 +7,7 @@ import "../globals.css";
 import { Header } from "@/components/ui/header-2";
 import { SmoothScroll } from "@/components/ui/smooth-scroll";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+import { ThemeProvider } from "@/components/ui/theme-provider";
 import { routing, localeMetadata, type Locale } from "@/i18n/routing";
 
 const geistSans = Geist({
@@ -49,13 +50,23 @@ export default async function LocaleLayout({
       dir={dir}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      {/* Prevents flash of wrong theme on first load */}
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('hob-theme');var d=t==='dark'||(t!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);if(d)document.documentElement.classList.add('dark');}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
-          <SmoothScroll>
-            <Header />
-            {children}
-            <WhatsAppButton />
-          </SmoothScroll>
+          <ThemeProvider>
+            <SmoothScroll>
+              <Header />
+              {children}
+              <WhatsAppButton />
+            </SmoothScroll>
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

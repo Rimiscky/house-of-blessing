@@ -7,6 +7,7 @@ import { MenuToggleIcon } from '@/components/ui/menu-toggle-icon';
 import { useScroll } from '@/components/ui/use-scroll';
 import { LanguageSwitcher } from '@/components/ui/language-switcher';
 import { SocialLinks } from '@/components/ui/social-links';
+import { ThemeToggle } from '@/components/ui/theme-toggle';
 import { Link } from '@/i18n/navigation';
 
 const PHONE_TEL = '+33646814033';
@@ -66,9 +67,11 @@ export function Header() {
 						{t('phone')}
 					</a>
 					<SocialLinks />
+					<ThemeToggle />
 					<LanguageSwitcher />
 				</div>
 				<div className="flex items-center gap-2 md:hidden">
+					<ThemeToggle />
 					<LanguageSwitcher />
 					<Button size="icon" variant="outline" onClick={() => setOpen(!open)}>
 						<MenuToggleIcon open={open} className="size-5" duration={300} />
